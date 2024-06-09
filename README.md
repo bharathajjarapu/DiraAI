@@ -1,4 +1,4 @@
-# 🤖 Lawy: Your Indian AI Legal Assistant 🇮🇳
+# Lawy : AI Legal Assistant for 🇮🇳
 
 Welcome to **Lawy** – your AI-powered legal advisor specializing in Indian laws! ⚖️ 
 Lawy currently leverages Google's advanced AI models to provide precise and reliable legal advice. 
