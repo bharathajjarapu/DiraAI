@@ -65,7 +65,7 @@ def user_input(user_question):
 
 def main():
     st.set_page_config("Lawy", page_icon=":scales:")
-    st.header("Lawy: AI Lawyer :scales:")
+    st.header("Lawy: AI Legal Assistant :scales:")
 
     if "data_ingested" not in st.session_state:
         st.session_state.data_ingested = False
