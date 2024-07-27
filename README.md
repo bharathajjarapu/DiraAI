@@ -1,4 +1,4 @@
-# Dira AI : AI Legal Assistant for 🇮🇳
+# Dira AI : AI Legal Assistant for India
 
 Welcome to **Dira AI** – your AI-powered legal advisor specializing in Indian laws! ⚖️ 
 Lawy currently leverages Google's advanced AI models to provide precise and reliable legal advice. 
