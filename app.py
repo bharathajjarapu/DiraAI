@@ -64,9 +64,35 @@ def user_input(user_question, chat_history):
     response = chain({"input_documents": docs, "chat_history": chat_history, "question": user_question}, return_only_outputs=True)
     return response["output_text"]
 
+def hero_section():
+    st.markdown("""
+    <style>
+    .hero {
+        padding: 3rem;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .hero h1 {
+        color: #1e3d59;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    .hero p {
+        color: #333;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    </style>
+    
+    <div class="hero">
+        <h1>Dira AI</h1>
+    </div>
+    """, unsafe_allow_html=True)
+
 def main():
-    st.set_page_config("Lawy", page_icon=":scales:")
-    st.header("Lawy: AI Legal Assistant :scales:")
+    st.set_page_config("Dira AI", page_icon=":scales:")
     if "data_ingested" not in st.session_state:
         st.session_state.data_ingested = False
 
@@ -78,7 +104,7 @@ def main():
 
     if "messages" not in st.session_state:
         st.session_state.messages = [
-            {"role": "assistant", "content": "Hi I'm Lawy, an AI Legal Advisor"}]
+            {"role": "assistant", "content": "Hi I'm Dira AI, an AI Legal Assistant"}]
 
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
