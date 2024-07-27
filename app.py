@@ -92,8 +92,8 @@ def hero_section():
     """, unsafe_allow_html=True)
 
 def main():
-    hero_section()
     st.set_page_config("Dira AI", page_icon=":scales:")
+    hero_section()
     if "data_ingested" not in st.session_state:
         st.session_state.data_ingested = False
 
