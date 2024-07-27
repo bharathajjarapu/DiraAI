@@ -1,6 +1,6 @@
-# Lawy : AI Legal Assistant for 🇮🇳
+# Dira AI : AI Legal Assistant for 🇮🇳
 
-Welcome to **Lawy** – your AI-powered legal advisor specializing in Indian laws! ⚖️ 
+Welcome to **Dira AI** – your AI-powered legal advisor specializing in Indian laws! ⚖️ 
 Lawy currently leverages Google's advanced AI models to provide precise and reliable legal advice. 
 Lawy can answer all your questions about legal procedures, rights, or regulations in India.
 
@@ -36,7 +36,7 @@ Lawy can answer all your questions about legal procedures, rights, or regulation
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/bharathajjarapu/lawy.git
+   git clone https://github.com/bharathajjarapu/diraai.git
    cd lawy
    ```
 
